@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Farouk Abdelkebir — Full Stack Software Engineer building frontend and backend applications with modern web technologies, cloud, DevOps and AI." />
+  <meta name="theme-color" content="#080b14" />
+  <title>Farouk Abdelkebir | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Farouk Abdelkebir home" data-i18n-attr="aria-label:brand.label"><span class="brand-mark" aria-hidden="true">FA</span><span class="brand-name">FAROUK ABDELKEBIR</span></a>
+    <div class="header-actions">
+      <nav class="nav" aria-label="Main navigation" data-i18n-attr="aria-label:nav.label">
+        <a href="#work" data-i18n="nav.work">Work</a><a href="#about" data-i18n="nav.about">About</a><a href="#stack" data-i18n="nav.stack">Stack</a><a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a class="nav-contact" href="#contact" data-i18n="nav.contact">Let's talk <span>↗</span></a>
+      </nav>
+      <button class="lang-switch" type="button" aria-label="Switch to French" data-i18n-attr="aria-label:lang.switch"><span data-lang="en">EN</span><span data-lang="fr">FR</span></button>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" data-i18n-attr="aria-label:nav.toggle"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow"><span class="status-dot"></span> FULL STACK SOFTWARE ENGINEER <span class="eyebrow-divider">/</span> TUNISIA</p>
+        <h1 class="reveal" data-i18n="hero.title">Turning ideas into<br><span class="gradient-text">full-stack solutions.</span></h1>
+        <p class="hero-description reveal" data-i18n="hero.description">I build end-to-end web applications, from intuitive Angular interfaces to secure Java and Spring services, with cloud, DevOps, databases, and AI where they add value.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-primary" href="#work" data-i18n="hero.explore">Explore my work <span>↘</span></a>
+          <a class="button button-ghost" href="assets/cv_farouk_abdelkebir_en.pdf" target="_blank" rel="noopener noreferrer" data-i18n="hero.cv" data-i18n-attr="href:hero.cvFile">Download CV <span>↓</span></a>
+        </div>
+        <div class="hero-meta reveal"><span data-i18n="hero.meta"><i class="meta-line"></i> Angular · Spring · Cloud · AI</span><span class="mono" data-i18n="hero.open">OPEN TO OPPORTUNITIES</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="3D illustration of a full-stack developer working at a multi-screen workstation" data-i18n-attr="aria-label:hero.artLabel">
+        <img class="hero-art-image" src="assets/hero-3d-workstation.jpg" alt="A developer working at a workstation surrounded by code, application dashboards, and technology panels" data-i18n-attr="alt:hero.artAlt" width="926" height="870" fetchpriority="high" />
+        <div class="hero-art-glow" aria-hidden="true"></div>
+        <div class="hero-art-label mono" data-i18n="hero.artTag"><span class="status-dot"></span> DESIGN · BUILD · DEPLOY</div>
+      </div>
+      <a class="scroll-cue" href="#work" data-i18n="hero.scroll"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-shell work-section" id="work">
+      <div class="section-heading reveal"><div><p class="eyebrow" data-i18n="work.eyebrow">01 / SELECTED WORK</p><h2 data-i18n="work.title">Built to solve<br><span class="muted">real problems.</span></h2></div><p class="section-intro" data-i18n="work.intro">A selection of engineering projects across banking data, workflow automation, infrastructure, and intelligent applications.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal" data-tilt>
+          <div class="project-visual visual-banking">
+            <div class="visual-top"><span class="mono" data-i18n="work.case1">CASE STUDY / 01</span><span class="visual-chip" data-i18n="work.chip1">BANKING DATA</span></div>
+            <div class="data-flow"><div class="data-node node-oracle">ORACLE<br><small>T24 / XML</small></div><div class="flow-path"><span></span><span></span><span></span></div><div class="data-node node-etl">ETL<br><small>SPRING BATCH</small></div><div class="flow-path"><span></span><span></span><span></span></div><div class="data-node node-sql">SQL<br><small>SERVER</small></div></div>
+            <div class="visual-bottom"><span>EXTRACT</span><span>TRANSFORM</span><span>LOAD</span></div>
+          </div>
+          <div class="project-info"><div class="project-title-row"><div><p class="project-kicker">PFE · WEVIOO</p><h3>DataBridge Banking</h3></div><span class="project-number">01</span></div>
+            <p data-i18n="work.databridge">A microservices platform designed to industrialize ETL workflows for Temenos T24 banking data, including full and incremental loads, traceability, monitoring, and AI-assisted operations.</p>
+            <div class="tag-list"><span>Java 21</span><span>Spring Batch</span><span>Angular</span><span>OAuth2</span><span>SQL Server</span><span>Ollama / Qwen</span><span>Docker</span></div>
+            <div class="project-actions">
+              <button class="text-link project-details" data-project="databridge" data-i18n="work.overview">Project overview <span>↗</span></button>
+              <a class="watch-demo-link" href="https://drive.google.com/file/d/1RAj6spnZN-Tk7z38rFIGQdUXr1WW-F_i/view?usp=drive_link" target="_blank" rel="noopener noreferrer" aria-label="Watch the DataBridge demo video" data-i18n-attr="aria-label:work.demoDatabridge" data-i18n="work.demo">
+                <span class="watch-demo-icon" aria-hidden="true">▶</span> Watch Demo Video <span class="watch-demo-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="project-visual visual-flow">
+            <div class="visual-top"><span class="mono" data-i18n="work.case2">CASE STUDY / 02</span><span class="visual-chip">WORKFLOW</span></div>
+            <div class="workflow">
+              <div class="workflow-step"><b>01</b><span data-i18n="work.stepDeposit">Deposit</span></div><i></i><div class="workflow-step active"><b>02</b><span data-i18n="work.stepValidate">Validate</span></div><i></i><div class="workflow-step"><b>03</b><span data-i18n="work.stepSign">Sign</span></div><i></i><div class="workflow-step"><b>04</b><span data-i18n="work.stepArchive">Archive</span></div>
+            </div><div class="flow-orb orb-a"></div><div class="flow-orb orb-b"></div>
+          </div>
+          <div class="project-info"><div class="project-title-row"><div><p class="project-kicker">ALMA TECHNOLOGIES</p><h3>FlowSigna</h3></div><span class="project-number">02</span></div>
+            <p data-i18n="work.flowsigna">An electronic document workflow for deposit, validation, signature, and archiving, powered by BPMN orchestration and a secured Angular interface.</p>
+            <div class="tag-list"><span>Spring Boot</span><span>Flowable BPMN</span><span>Angular</span><span>JWT</span><span>REST</span></div>
+            <div class="project-actions">
+              <button class="text-link project-details" data-project="flowsigna" data-i18n="work.overview">Project overview <span>↗</span></button>
+              <a class="watch-demo-link" href="https://drive.google.com/file/d/1l3b_-uPrT7YoAFw_r0r_pI71FzFw0-br/view?usp=drive_link" target="_blank" rel="noopener noreferrer" aria-label="Watch the FlowSigna demo video" data-i18n-attr="aria-label:work.demoFlowsigna" data-i18n="work.demo">
+                <span class="watch-demo-icon" aria-hidden="true">▶</span> Watch Demo Video <span class="watch-demo-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="project-visual visual-devops">
+            <div class="visual-top"><span class="mono" data-i18n="work.case3">CASE STUDY / 03</span><span class="visual-chip" data-i18n="work.chip3">PLATFORM</span></div>
+            <div class="pipeline"><div class="pipeline-step"><span>⌘</span><small>CODE</small></div><b>→</b><div class="pipeline-step"><span>⚙</span><small>BUILD</small></div><b>→</b><div class="pipeline-step"><span>◈</span><small>TEST</small></div><b>→</b><div class="pipeline-step pipeline-final"><span>⬡</span><small>DEPLOY</small></div></div>
+            <div class="terminal"><p><span>●</span> pipeline status</p><code>$ kubectl rollout status</code><em>deployment complete_</em></div>
+          </div>
+          <div class="project-info"><div class="project-title-row"><div><p class="project-kicker" data-i18n="work.kicker3">DEVOPS PROJECT</p><h3>CI/CD & Kubernetes</h3></div><span class="project-number">03</span></div>
+            <p data-i18n="work.devops">A delivery pipeline for a full-stack Spring Boot and Angular application, covering build, tests, quality analysis, packaging, containerization, deployment, and monitoring.</p>
+            <div class="tag-list"><span>Jenkins</span><span>GitLab CI</span><span>Docker</span><span>Kubernetes</span><span>SonarQube</span><span>Prometheus</span></div>
+            <button class="text-link project-details" data-project="devops" data-i18n="work.overview">Project overview <span>↗</span></button>
+          </div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="project-visual visual-skillup">
+            <div class="visual-top"><span class="mono" data-i18n="work.case4">CASE STUDY / 04</span><span class="visual-chip">MICROSERVICES</span></div>
+            <div class="service-map"><div class="service central">API<br>GATEWAY</div><div class="service service-a">EUREKA</div><div class="service service-b">CONFIG</div><div class="service service-c">USERS<br>PYTHON</div><div class="service service-d">COURSES</div><div class="service-line line-a"></div><div class="service-line line-b"></div><div class="service-line line-c"></div><div class="service-line line-d"></div></div>
+          </div>
+          <div class="project-info"><div class="project-title-row"><div><p class="project-kicker" data-i18n="work.kicker4">FULL-STACK PLATFORM</p><h3>SkillUp</h3></div><span class="project-number">04</span></div>
+            <p data-i18n="work.skillup">An online learning platform designed around Spring Cloud microservices, service discovery, centralized configuration, API gateway routing, and Keycloak authentication.</p>
+            <div class="tag-list"><span>Java 17</span><span>Spring Cloud</span><span>Angular</span><span>Keycloak</span><span>Python</span><span>Docker</span></div>
+            <button class="text-link project-details" data-project="skillup" data-i18n="work.overview">Project overview <span>↗</span></button>
+          </div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="project-visual visual-sport">
+            <div class="visual-top"><span class="mono" data-i18n="work.case5">CASE STUDY / 05</span><span class="visual-chip" data-i18n="work.chip5">SPORTS TECH</span></div>
+            <div class="tactic-board"><div class="pitch-line pitch-mid"></div><div class="pitch-circle"></div><div class="pitch-box box-left"></div><div class="pitch-box box-right"></div><span class="player p1"></span><span class="player p2"></span><span class="player p3"></span><span class="player p4"></span><span class="player p5"></span><span class="player p6"></span><span class="ball"></span><svg viewBox="0 0 320 150" aria-hidden="true"><path d="M64 48 Q118 10 160 76 T260 98" fill="none" stroke="#8ef4d2" stroke-width="2" stroke-dasharray="5 5"/></svg></div>
+          </div>
+          <div class="project-info"><div class="project-title-row"><div><p class="project-kicker" data-i18n="work.kicker5">SPORTS ANALYTICS</p><h3>RS SPORT</h3></div><span class="project-number">05</span></div>
+            <p data-i18n="work.rssport">A sports platform combining an interactive tactical board, real-time chat, player injury tracking, recovery indicators, and an AI-assisted recovery plan feature based on RAG.</p>
+            <div class="tag-list"><span>Spring Boot</span><span>Angular</span><span>MySQL</span><span>WebSocket</span><span>RAG</span></div>
+            <div class="project-actions">
+              <button class="text-link project-details" data-project="rssport" data-i18n="work.overview">Project overview <span>↗</span></button>
+              <a class="watch-demo-link" href="https://drive.google.com/file/d/1STbN-IN8_cpa_-EsJolRIjDmOwwnszek/view?usp=drive_link" target="_blank" rel="noopener noreferrer" aria-label="Watch the RS SPORT demo video" data-i18n-attr="aria-label:work.demoRssport" data-i18n="work.demo">
+                <span class="watch-demo-icon" aria-hidden="true">▶</span> Watch Demo Video <span class="watch-demo-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="projects-note mono" data-i18n="work.note">Click on any project to view its details.</p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-shell about-layout">
+        <div class="about-sticky reveal"><p class="eyebrow" data-i18n="about.eyebrow">02 / ABOUT ME</p><h2 data-i18n="about.title">Engineering with<br><span class="gradient-text">purpose.</span></h2><div class="about-stamp" data-i18n="about.stamp"><span>SOFTWARE</span><b>✳</b><span>ENGINEERING</span></div></div>
+        <div class="about-content reveal"><p class="about-lead" data-i18n="about.lead">I'm Farouk, a software engineer with a strong interest in building robust applications and the systems that make them reliable.</p><p data-i18n="about.p1">My work spans backend development, microservices, workflow automation, CI/CD, databases, and AI-powered features. I enjoy turning complex requirements into maintainable software with clear architecture and practical value.</p><p data-i18n="about.p2">My experience includes a final-year project at Wevioo focused on banking data extraction and migration, as well as an engineering internship at Alma Technologies on an electronic document workflow.</p>
+          <div class="about-facts"><div><span class="fact-number">01</span><span data-i18n="about.fact1">Frontend &<br>user experience</span></div><div><span class="fact-number">02</span><span data-i18n="about.fact2">Backend &<br>API engineering</span></div><div><span class="fact-number">03</span><span data-i18n="about.fact3">Cloud, DevOps &<br>practical AI</span></div></div>
+          <a class="text-link" href="#experience" data-i18n="about.journey">Explore my journey <span>↘</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell stack-section" id="stack">
+      <div class="section-heading reveal"><div><p class="eyebrow" data-i18n="stack.eyebrow">03 / TOOLKIT</p><h2 data-i18n="stack.title">The tools behind<br><span class="muted">the work.</span></h2></div><p class="section-intro" data-i18n="stack.intro">A practical toolkit for building, securing, shipping, and observing software systems.</p></div>
+      <div class="stack-grid">
+        <article class="stack-card reveal"><div class="stack-icon">⌘</div><p class="mono" data-i18n="stack.label1">01 / LANGUAGES</p><h3 data-i18n="stack.title1">Languages</h3><div class="stack-items"><span>Java 11 / 17 / 21</span><span>Python</span><span>TypeScript</span><span>SQL</span></div></article>
+        <article class="stack-card reveal"><div class="stack-icon">◫</div><p class="mono">02 / FRONTEND</p><h3>Frontend</h3><div class="stack-items"><span>Angular</span><span>TypeScript</span><span>HTML / CSS</span><span data-i18n="stack.responsive">Responsive UI</span></div></article>
+        <article class="stack-card reveal"><div class="stack-icon">⌬</div><p class="mono">03 / BACKEND</p><h3 data-i18n="stack.title3">Backend & APIs</h3><div class="stack-items"><span>Spring Boot</span><span>Spring Batch</span><span>Spring Cloud</span><span>Django</span><span data-i18n="stack.rest">REST APIs</span><span>Flowable</span></div></article>
+        <article class="stack-card reveal"><div class="stack-icon">⛨</div><p class="mono" data-i18n="stack.label4">04 / DELIVERY</p><h3>Cloud & DevOps</h3><div class="stack-items"><span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>GitHub Actions</span><span>GitLab CI</span><span>AWS</span><span>Nexus</span></div></article>
+        <article class="stack-card reveal"><div class="stack-icon">⟁</div><p class="mono" data-i18n="stack.label5">05 / DATA & TRUST</p><h3 data-i18n="stack.title5">Data, Security & AI</h3><div class="stack-items"><span>Oracle</span><span>SQL Server</span><span>MySQL</span><span>PostgreSQL</span><span>OAuth2 / JWT</span><span>Keycloak</span><span>LLMs / RAG</span><span>Ollama</span></div></article>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience"><div class="section-shell">
+      <div class="section-heading reveal"><div><p class="eyebrow" data-i18n="exp.eyebrow">04 / EXPERIENCE & EDUCATION</p><h2 data-i18n="exp.title">The path so far.</h2></div><p class="section-intro" data-i18n="exp.intro">Learning through real projects, engineering teams, and continuous practice.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date mono" data-i18n="exp.date1">FEB 2026 — AUG 2026</div><div class="timeline-marker"></div><div class="timeline-content"><p class="timeline-type" data-i18n="exp.type1">FINAL-YEAR PROJECT INTERNSHIP</p><h3>Wevioo <span>· Tunis</span></h3><p data-i18n="exp.desc1">Development and deployment of a platform for extracting and migrating Temenos T24 banking data.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date mono" data-i18n="exp.date2">JUL 2025 — SEP 2025</div><div class="timeline-marker"></div><div class="timeline-content"><p class="timeline-type" data-i18n="exp.type2">ENGINEERING INTERNSHIP</p><h3>Alma Technologies <span>· Paris, France</span></h3><p data-i18n="exp.desc2">Design and development of an electronic document signature workflow.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date mono" data-i18n="exp.date3">FEB 2023 — JUN 2023</div><div class="timeline-marker"></div><div class="timeline-content"><p class="timeline-type" data-i18n="exp.type3">FINAL-YEAR INTERNSHIP</p><h3>TESCA Tunisia <span>· Grombalia</span></h3><p data-i18n="exp.desc3">Automation of a cylinder spacing system.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date mono">2023 — 2026</div><div class="timeline-marker"></div><div class="timeline-content"><p class="timeline-type" data-i18n="exp.type4">ENGINEERING DEGREE</p><h3>ESPRIT <span data-i18n="exp.place4">· Ariana, Tunisia</span></h3><p data-i18n="exp.desc4">National Engineering Degree in Computer Science — Software Engineering.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date mono">2020 — 2023</div><div class="timeline-marker"></div><div class="timeline-content"><p class="timeline-type" data-i18n="exp.type5">TECHNICAL DEGREE</p><h3>ISET Nabeul</h3><p data-i18n="exp.desc5">Higher Technician Diploma in Industrial Computing.</p></div></article>
+      </div>
+      <div class="certifications reveal"><p class="eyebrow">CERTIFICATIONS</p><div class="cert-row"><span class="cert-symbol">N</span><div><strong>Applications of AI for Anomaly Detection</strong><small data-i18n="exp.certNvidia">NVIDIA · November 2025</small></div><span class="cert-arrow">↗</span></div><div class="cert-row"><span class="cert-symbol">N</span><div><strong>Building Transformer-Based NLP Applications</strong><small data-i18n="exp.certNvidia">NVIDIA · November 2025</small></div><span class="cert-arrow">↗</span></div><div class="cert-row"><span class="cert-symbol">FR</span><div><strong>TCF TP — B2</strong><small data-i18n="exp.certTcf">December 2024</small></div><span class="cert-arrow">↗</span></div></div>
+    </div></section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="contact-panel reveal"><div class="contact-orb"></div><p class="eyebrow">05 / CONTACT</p><h2 data-i18n="contact.title">Have a challenge<br>worth <span class="gradient-text">solving?</span></h2><p class="contact-copy" data-i18n="contact.copy">I'm interested in meaningful engineering work, collaboration, and opportunities to keep building.</p>
+        <a class="button button-primary email-button" href="mailto:farouk.abdelkebir04@gmail.com">farouk.abdelkebir04@gmail.com <span>↗</span></a>
+        <div class="social-links"><a href="https://linkedin.com/in/farouk-abdelkebir" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/faroukabdelkebir" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><span class="location-label" data-i18n="contact.location">Ariana, Tunisia</span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer section-shell"><a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">FA</span></a><p data-i18n="footer.tagline">Designed & built with intention.</p><p class="mono">© <span id="year"></span> FAROUK ABDELKEBIR</p></footer>
+
+  <dialog class="project-dialog" id="project-dialog"><button class="dialog-close" aria-label="Close project details" data-i18n-attr="aria-label:dialog.close">×</button><p class="eyebrow" id="dialog-kicker">PROJECT OVERVIEW</p><h2 id="dialog-title">Project</h2><p id="dialog-description"></p><div class="tag-list" id="dialog-tags"></div><p class="dialog-note" data-i18n="dialog.note">For more details, visit my GitHub account .</p></dialog>
+</body>
+</html>
